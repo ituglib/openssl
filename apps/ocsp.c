@@ -65,6 +65,7 @@
 #endif
 
 #if defined(OPENSSL_SYS_VXWORKS)
+
 /* not supported */
 int setpgid(pid_t pid, pid_t pgid)
 {
